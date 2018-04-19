@@ -1,0 +1,29 @@
+@require "app/styles/charte"
+
+
+#header
+    background: $bg-title
+    border-bottom: 1px solid $border
+    padding: 1em
+    text-transform: uppercase
+    text-align: center
+    font-family: $title
+    color: $color-text
+
+    &-title
+        display: inline-block
+        font-size: 3rem
+        letter-spacing: -.04em
+        position: relative
+
+        &::before
+            content: ""
+            display: block
+            background: url("/images/web-developer.svg") no-repeat
+            background-size: contain
+            width: 50px
+            height: 50px
+            position: absolute
+            left: -1.5em
+            top: -0.1em
+            z-index: 100

@@ -7,13 +7,13 @@ import React from 'react';
 /*
  * Local import
  */
-
+import Header from 'src/components/Header';
 
 /*
  * Code
  */
 const App = () => (
-  <div id="app">Hello World!</div>
+  <div id="app"><Header /></div>
 );
 
 

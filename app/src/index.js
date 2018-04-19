@@ -4,6 +4,7 @@
 import 'babel-polyfill';
 import React from 'react';
 import { render } from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 /*
@@ -16,5 +17,10 @@ import App from 'src/components/App';
  * Code
  */
 document.addEventListener('DOMContentLoaded', () => {
-  render(<App />, document.getElementById('root'));
+  const rootComponent = (
+    <Router>
+      <App />
+    </Router>
+  );
+  render(rootComponent, document.getElementById('root'));
 });
