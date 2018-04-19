@@ -1,3 +1,8 @@
-#app
-    font-family: arial
-    
+@require "app/styles/charte"
+
+#main
+	@extends $transition-slide
+
+.open
+	#main
+		@extends $transform-slide

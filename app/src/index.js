@@ -14,7 +14,7 @@ import App from 'src/components/App';
 
 
 /*
- * Code
+ * Codeđ
  */
 document.addEventListener('DOMContentLoaded', () => {
   const rootComponent = (
