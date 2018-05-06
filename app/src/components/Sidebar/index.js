@@ -3,9 +3,8 @@
  */
 import React from 'react';
 import PropTypes from 'prop-types';
-// import glamorous from 'glamorous';
+import { NavLink } from 'react-router-dom';
 
-import StyledLink from './StyledLink';
 /**
  * Local import
  */
@@ -17,12 +16,12 @@ import StyledLink from './StyledLink';
 const Sidebar = ({ routes, toggleSidebar }) => (
   <div id="sidebar">
     <div className="sidebar-item">
-      <p>Hello, this site is a React app.</p>
+      <p>Hello, good visit of my site</p>
     </div>
 
     <nav className="sidebar-nav">
       {Object.keys(routes).map(path => (
-        <StyledLink
+        <NavLink
           key={path}
           to={path}
           exact
@@ -30,7 +29,7 @@ const Sidebar = ({ routes, toggleSidebar }) => (
           onClick={toggleSidebar}
         >
           {routes[path].nav}
-        </StyledLink>
+        </NavLink>
       ))}
     </nav>
 
