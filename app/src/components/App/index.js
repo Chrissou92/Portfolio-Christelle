@@ -11,8 +11,10 @@ import { withRouter, Route, Switch } from 'react-router-dom';
  * Local import
  */
 import Header from 'src/components/Header';
-import Home from 'src/components/Home';
 import Sidebar from 'src/components/Sidebar';
+import Footer from 'src/components/Footer';
+
+import Home from 'src/components/Home';
 
 /*
 * Data Routes
@@ -97,6 +99,7 @@ goToIndex = (index) => {
               <Route render={() => <div>404</div>} />
             </Switch>
           </div>
+          <Footer />
         </main>
       </div>
     );

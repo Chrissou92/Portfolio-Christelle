@@ -14,16 +14,17 @@ import { Route } from 'react-router-dom';
  */
 const Header = ({ routes }) => (
   <div id="header">
+    <h1 id="header-name">Christelle Nicol</h1>
     {Object.keys(routes).map(path => (
       <Route
         exact
         key={path}
         path={path}
         render={() => (
-          <h1 id="header-title">
+          <h2 id="header-title">
             <a href="/">{routes[path].title}</a>
             <small>{routes[path].subtitle}</small>
-          </h1>
+          </h2>
         )}
       />
    ))}
