@@ -15,6 +15,7 @@ import Sidebar from 'src/components/Sidebar';
 import Footer from 'src/components/Footer';
 
 import Home from 'src/components/Home';
+import Skills from 'src/components/Skills';
 
 /*
 * Data Routes
@@ -26,6 +27,12 @@ const routes = {
     title: 'Home',
     subtitle: 'new life',
     component: Home,
+  },
+  '/work': {
+    nav: 'Skills',
+    title: 'Compétences',
+    subtitle: 'Motivation et passion !',
+    component: Skills,
   },
 };
 /*
