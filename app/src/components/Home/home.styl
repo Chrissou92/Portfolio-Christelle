@@ -1,0 +1,74 @@
+@require "app/styles/charte"
+
+
+
+.content
+  background-color: $bg-section
+  padding-top: 2em
+  // height: 100vh
+
+  &-img
+    background-image: url(/images/bureau.jpg)
+    background-position: top
+    background-repeat: no-repeat
+    background-size: contain
+    height: 5em
+    padding-top: 15em
+    width: 100%
+    @media(min-width: 600px)
+      background-size: contain
+      height: 35em
+      padding-top: 2em
+      width: 100%
+    @media(min-width: 1024px)
+      background-size: cover
+      height: 40em
+      width: 100%
+
+  &-section
+    margin: auto
+    width: 80%
+
+  &-profil
+    font-family: $title
+    font-size: 2.5em
+    padding-bottom: 0.8em
+    padding-top: 1em
+    @media(min-width: 600px)
+      font-size: 1.5em
+      margin-left: 1.5em
+      margin-right: 2em
+      padding-bottom: 1em
+    @media(min-width: 1024px)
+      font-size: 2.5em
+      font-weight: bold
+      margin-left: 2.5em
+      padding-right: 1em
+      padding-top: 2em
+
+  &-title
+    font-size: 1.2em
+    text-decoration: underline
+    text-decoration-color: $color-underline
+    padding-top: 0
+    @media(min-width: 600px)
+      font-size: 2em
+      margin-left: 1em
+    @media(min-width: 1024px)
+      font-size: 2.2em
+      margin-left: 2.5em
+      padding-top: 2em
+
+  &-text
+    font-size: 1em
+    padding-bottom: 0.8em
+    padding-top: 0.8em
+    @media(min-width: 600px)
+      font-size: 1.5em
+      margin-left: 1.5em
+      margin-right: 2em
+      padding-bottom: 1em
+    @media(min-width: 1024px)
+      font-size: 1.8em
+      margin-left: 3em
+      padding-right: 6em
