@@ -31,7 +31,7 @@ const routes = {
   '/work': {
     nav: 'Skills',
     title: 'Compétences',
-    subtitle: 'Motivation et passion !',
+    subtitle: ' Motivation et passion !',
     component: Skills,
   },
 };
