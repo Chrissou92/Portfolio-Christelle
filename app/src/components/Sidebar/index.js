@@ -34,9 +34,9 @@ const Sidebar = ({ routes, toggleSidebar }) => (
     </nav>
 
     <div className="sidebar-item">
-      <p>Visit my <a href="https://twitter.com/nicolchristelle" className="external-link">Twitter</a></p>
-      <p>Visit my <a href="https://www.linkedin.com/in/christelle-nicol-%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-2aba93147/" className="external-link">Linkedin</a></p>
-      <p>Visit my <a href="https://github.com/Chrissou92" className="external-link">GitHub</a></p>
+      <p>Visit my <a href="https://twitter.com/nicolchristelle" target="_blank"  className="external-link">Twitter</a></p>
+      <p>Visit my <a href="https://www.linkedin.com/in/christelle-nicol-%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-2aba93147/" target="_blank" className="external-link">Linkedin</a></p>
+      <p>Visit my <a href="https://github.com/Chrissou92" target="_blank"  className="external-link">GitHub</a></p>
     </div>
   </div>
 );
