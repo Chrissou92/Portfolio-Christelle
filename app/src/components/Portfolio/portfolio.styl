@@ -1,0 +1,30 @@
+@require "app/styles/charte"
+
+#portfolio
+  height: auto
+  margin: auto
+
+.portfolio-img
+  background-image: url(/images/kelly-sikkema-411622-unsplash.jpg)
+  background-position: top
+  background-repeat: no-repeat
+  background-size: contain
+  height: 5em
+  padding-top: 16em
+  width: 100%
+  @media(min-width: 600px)
+    background-size: contain
+    height: 35em
+    padding-top: 2em
+    width: 100%
+  @media(min-width: 1024px)
+    background-size: cover
+    height: 45em
+    width: 100%
+
+.portfolio-name
+  padding-top: 3em
+  padding-left: 2em
+  font-size: 2em
+  font-weight: bold
+  color: white
