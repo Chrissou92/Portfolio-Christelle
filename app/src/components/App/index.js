@@ -17,6 +17,7 @@ import Footer from 'src/components/Footer';
 import Home from 'src/components/Home';
 import Skills from 'src/components/Skills';
 import Portfolio from 'src/components/Portfolio';
+import Contact from 'src/components/Contact';
 
 /*
 * Data Routes
@@ -40,6 +41,12 @@ const routes = {
     title: 'Portfolio',
     subtitle: ' Créations !',
     component: Portfolio,
+  },
+  '/Contact': {
+    nav: 'Contact',
+    title: 'Contact',
+    subtitle: ' Hello',
+    component: Contact,
   }
 };
 /*
