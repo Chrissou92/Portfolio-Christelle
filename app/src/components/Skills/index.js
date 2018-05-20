@@ -24,7 +24,7 @@ const Skills = () => (
         </ul>
         <h2 className="skills-more">More...</h2>
         <ul>
-        <li>Gestion de projet</li>
+          <li>Gestion de projet</li>
           <li>Methodes agiles (scrum)</li>
           <li>Trello</li>
           <li>Git, GitHub</li>

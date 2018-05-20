@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "christelleNicol",
+  "homepage": "https://Chrissou92.github.io/Portfolio-Christelle",
   "license": "MIT",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "build": "brunch build",
     "start": "brunch watch --server"
+
   },
   "devDependencies": {
     "auto-reload-brunch": "^2.7.1",
@@ -30,6 +34,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "classnames": "^2.2.5",
+    "gh-pages": "^1.1.0",
     "glamor": "^2.20.40",
     "glamorous": "^4.12.4",
     "prop-types": "^15.6.1",
